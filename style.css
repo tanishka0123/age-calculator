@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(145deg, rgb(69, 129, 239), white);
+    padding: 10px;
+    color: white;
+}
+
+.calculator{
+    width: 100%;
+    max-width: 600px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.calculator h1{
+    font-size: 60px;
+}
+
+.calculator h1 span{
+    font-size: 65px;
+    color: #1c49b2;
+}
+
+.input{
+    margin: 40px 0;
+    padding: 35px;
+    border-radius: 10px;
+    background: rgba(250, 249, 250, 0.425);
+    display: flex;
+    align-items: center;
+   
+}
+
+.input input{
+    flex: 1;
+    margin-right: 20px;
+    padding: 14px 20px;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;
+
+}
+
+.input button{
+    background: #4973d6;
+    border: 0;
+    outline: 0;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: 800;
+    color: #333;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.input input::-webkit-calender-picker-indicator{
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+width: auto;
+height: auto;
+position: absolute;
+background-position: calc(100% - 10px);
+background-size: 30px;
+cursor: pointer;
+}
+
+#result{
+    font-size: 23px;
+
+    /* -webkit-font-feature-settings: "smcp"; */
+}
+
+#result span{
+    color: #4973d6;
+}
